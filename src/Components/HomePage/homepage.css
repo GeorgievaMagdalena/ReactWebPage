@@ -1,0 +1,29 @@
+.btn-circle.btn-xl {
+    width: 85px;
+    height: 85px;
+    border-radius: 45px;
+    font-size: 15px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    
+}
+
+.outline{
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.pos{
+    text-align: right;
+}
+
+.clickLinks{
+    text-align: center;
+    background-color: #FFC107;
+    color: white;
+    padding: 12px 22px;
+    display: inline-block;
+    margin-left: 7%;
+    font-weight: bold;
+}
+
