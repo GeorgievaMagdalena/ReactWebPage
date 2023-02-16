@@ -67,10 +67,10 @@ const Impressions = () => {
       </form>
 
       {showMessage &&
-            <div>
-            <p className="alert alert-success" style={{marginLeft: "13%", marginTop: "1%", width: "74%"}}><strong>Success!</strong> Your impressions have been submited.</p>
-            </div>
-            } 
+        <div>
+        <p className="alert alert-success" style={{marginLeft: "13%", marginTop: "1%", width: "74%"}}><strong>Success!</strong> Your impressions have been submited.</p>
+        </div>
+      } 
     </>
   )
 }

@@ -22,8 +22,6 @@ const POST = [
     }
 ];
 
-
-
 const Post = () => {
     return (
         <div>
@@ -31,22 +29,20 @@ const Post = () => {
                 POST.map((post) => {
                     return (
                         <div>
-                        <div className='container' style={{ borderRadius: "10px", backgroundColor: "#cfcfcf", padding: "20px", width: "65%" }}>
-                            <h4 className='titleH'>{post.heading}</h4>
-                            <h6>{post.decription}</h6>
-                         
-                            <img src={post.picSrc} className='blogImages' alt={post.alt} width="100%" height="150pt"></img>
-                          
-                            <p>&emsp;{post.text}</p>
-                            
-                        </div>
-                        <br/>
+                            <div className='container' style={{ borderRadius: "10px", backgroundColor: "#cfcfcf", padding: "20px", width: "65%" }}>
+                                <h4 className='titleH'>{post.heading}</h4>
+                                <h6>{post.decription}</h6>
+
+                                <img src={post.picSrc} className='blogImages' alt={post.alt} width="100%" height="150pt"></img>
+
+                                <p>&emsp;{post.text}</p>
+                                
+                            </div>
+                            <br />
                         </div>
                     )
-
                 })
             }
-
         </div>
     )
 }

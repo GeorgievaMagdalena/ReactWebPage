@@ -62,7 +62,7 @@ const Interests = () => {
                                 <h4 style={{ textAlign: "center", marginBottom: interest.isMyFavs ? "60pt" : "1.5%" }}>{interest.title}</h4>
                                 <p>{interest.firstDescription}</p>
                                 {interest.isMyFavs &&
-                                    <p><a href={interest.firstSrc} className="clickLinks" style={{ textDecoration: "none", target: "_blank" }}>
+                                    <p><a href={interest.firstSrc} className="clickLinks" style={{ textDecoration: "none"}} target="_blank">
                                         {interest.firstSrcText}</a></p>
                                 }
                                 {interest.isMyFavs===false &&
@@ -70,7 +70,7 @@ const Interests = () => {
                                 }
                                 <p>{interest.secondDescription}</p>
                                 {interest.isMyFavs &&
-                                    <p><a href={interest.secondSrc} className="clickLinks" style={{ textDecoration: "none", target: "_blank" }}>
+                                    <p><a href={interest.secondSrc} className="clickLinks" style={{ textDecoration: "none"}} target="_blank">
                                         {interest.firstSrcText}</a></p>
                                 }
                                 {interest.isMyFavs===false &&
@@ -81,7 +81,7 @@ const Interests = () => {
                                 <>
                                 <p>{interest.thirdDescription}</p>
                                 <p>
-                                 <a href={interest.thirdSrc} className="clickLinks" style={{ textDecoration: "none", target: "_blank" }}>
+                                 <a href={interest.thirdSrc} target="_blank" className="clickLinks" style={{ textDecoration: "none"}} >
                                     {interest.firstSrcText}</a></p>
                                 </>
                                 }
